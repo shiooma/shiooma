@@ -4,6 +4,10 @@
 - 💞️ I’m looking to collaborate on anyone who has the same desire as mine, or working in similar industries
 - 📫 you can email me : shiooma2007@gmail.com , for any collaborative projects!
 
+1) industry_news-crawler.py: Sorting Semiconductor industry news and send to related persons every morning
+ (with weblink)
+2) 
+
 <!---
 shiooma/shiooma is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
