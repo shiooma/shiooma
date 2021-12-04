@@ -88,7 +88,10 @@ content = MIMEMultipart()  #建立MIMEMultipart物件
 content["subject"] = "今日產業要聞"  #郵件標題
 content["from"] = "securesally@gmail.com"  #寄件者
 content["to"] = "industry.news.st30@gmail.com" #收件者
-content["bcc"] = "shiooma2001@yahoo.com.tw, jons@powerchip.com, simonckuo@psc.com.tw, jennyl@psc.com.tw, jerrychiu@psc.com.tw, maxcho@deutron.com.tw, johnny@eectc.com.tw, miriankuo@mxic.com.tw, kelvintu@chipbond.com.tw, sean.analyst@gmail.com, chchen@piecemakers.com.tw, lethe.sailors@gmail.com, mirianhjkuo@gmail.com, tchsiao@esmt.com.tw, Chris_hu@esmt.com.tw, Phil.hsu@zentel-japan.com.tw, gene.wu@zentel-japan.com.tw, samuel.wang@zentel-japan.com.tw"
+
+# This is the example of mail receipts, please modify as you like!
+#content["bcc"] = "shiooma2001@yahoo.com.tw, jons@powerchip.com, simonckuo@psc.com.tw, jennyl@psc.com.tw, jerrychiu@psc.com.tw, maxcho@deutron.com.tw, johnny@eectc.com.tw, miriankuo@mxic.com.tw, kelvintu@chipbond.com.tw, sean.analyst@gmail.com, chchen@piecemakers.com.tw, lethe.sailors@gmail.com, mirianhjkuo@gmail.com, tchsiao@esmt.com.tw, Chris_hu@esmt.com.tw, Phil.hsu@zentel-japan.com.tw, gene.wu@zentel-japan.com.tw, samuel.wang@zentel-japan.com.tw"
+
 content.attach(MIMEText(total))  #郵件內容
 
 import smtplib
