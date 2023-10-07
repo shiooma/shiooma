@@ -8,6 +8,8 @@
  (with weblink attached)
 2) industry_news_only_title-crawler.py: As above, but only Title (without weblink attached)
 
+(Folder) w3resource exercises  - including all my practicing exercises from w3resource-Python-exercises
+
 <!---
 shiooma/shiooma is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
